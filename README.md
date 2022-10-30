@@ -8,3 +8,6 @@ Created on 2022.10.30 refering the Microsoft Edge brouser .
 2. Microsoft Edge brouser and its inspect tool.
 
 
+### Folder Structure
+**img** - Image folder (Contain Images of the we page including Google logo and user image.)
+ 
