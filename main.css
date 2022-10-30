@@ -1,0 +1,163 @@
+/* Coded by Nisal Vimukthi
+2022.10.30 */
+body {
+    background : #202124 ;
+    height: 100vh;
+    max-height: 100vh;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top:10px;
+    margin-right: 10px;
+}
+
+nav div {
+    padding: 3px;
+    margin: 5px;
+}
+
+.svg {
+    width: 24px; 
+    height: 24px;
+}
+.nav-txt:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-user {
+    height: 32px; 
+    width: 32px;
+    border-radius: 50%;
+}
+
+.nav-img:hover{
+    background-color: #515151;
+    border-radius: 50%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    width:582px;
+    height: 44px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.search-bar:hover {
+    background-color: #5f6368;
+}
+
+.search-logo {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.search-bar-img {
+    width: 24px;
+    height: 24px;
+}
+
+input{
+    all: unset;
+    color: white;
+    width: 450px;
+}
+
+.right  {
+    cursor: pointer;
+    padding:10px;
+}
+
+.buttons {
+    margin: 32px;
+}
+button{
+    background-color: #303134;;
+    color: #e8eaed;
+    padding: 10px;
+    border: 1px solid #303134;
+    border-radius: 5px;
+    margin: 10px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+
+button:hover{
+    border: 0.5px solid #5d5e5f;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #050505 ;
+    width: 100%;
+
+}
+.footer-left {
+    display: flex;
+    padding-left: 25px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    right: 0;
+    padding-right: 35px;
+    
+}
+
+footer ul  li{
+    display: inline;
+    list-style-type: none;
+    padding: 15px;
+    font-size: 14px;
+    color: #999da2;
+}
+footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
